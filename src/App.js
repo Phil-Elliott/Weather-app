@@ -12,7 +12,7 @@ const App = () => {
 
   useEffect(() => {
     const fetchItems = async () => {
-      const result = await axios(`http://api.weatherapi.com/v1/current.json?key=c8abaccb342f4b11af6132148211611&q=${query}&aqi=yes`)
+      const result = await axios(`https://api.weatherapi.com/v1/current.json?key=c8abaccb342f4b11af6132148211611&q=${query}&aqi=yes`)
 
       setlocationInfo(result.data.location)
       setWeatherInfo(result.data.current)
