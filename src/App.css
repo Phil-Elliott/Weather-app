@@ -1,0 +1,42 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0; 
+  padding: 0; 
+}
+
+.header-container {
+  background-color: blue;
+  display: flex;
+  justify-content: space-between;
+  height: 6rem;
+}
+
+.header-container h1 {
+  color: white;
+  font-size: 2.5rem;
+  padding: 0 2rem;
+  margin: auto 0;
+}
+
+.search {
+  border-radius: 1.5rem;
+  font-size: 1.25rem;
+  margin: 1.8rem 2rem;
+  padding: .5rem 2rem;
+}
+
+.info-container {
+  background-color: lightblue; 
+  color: white; 
+  border-radius: 20px;
+  margin: auto;
+  width: 600px;
+  padding: 2rem 4rem;
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
